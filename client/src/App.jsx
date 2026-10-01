@@ -250,7 +250,7 @@ function Hero() {
       <div className="hero-visual">
         <div className="portrait-wrap">
           <div className="portrait-glow" />
-          <img src="/profile-photo.jpeg" alt="Ayush Karale portrait" />
+          <img src={`${import.meta.env.BASE_URL}profile-photo.jpeg`} alt="Ayush Karale portrait" />
         </div>
         <div className="signature">Better<br />Code<br /><span>Bigger Dreams</span></div>
       </div>
