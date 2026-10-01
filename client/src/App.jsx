@@ -12,10 +12,10 @@ const navItems = [
   { label: 'Home', path: '/', type: 'route' },
   { label: 'About', path: '/about', type: 'route' },
   { label: 'Skills', path: '/skills', type: 'route' },
-  { label: 'Projects', path: '/#projects', type: 'hash' },
-  { label: 'Experience', path: '/#experience', type: 'hash' },
-  { label: 'Education', path: '/#education', type: 'hash' },
-  { label: 'Contact', path: '/#contact', type: 'hash' }
+  { label: 'Projects', path: '/Portfolio/#projects', type: 'hash' },
+  { label: 'Experience', path: '/Portfolio/#experience', type: 'hash' },
+  { label: 'Education', path: '/Portfolio/#education', type: 'hash' },
+  { label: 'Contact', path: '/Portfolio/#contact', type: 'hash' }
 ];
 
 const defaultSkills = [
@@ -237,8 +237,8 @@ function Hero() {
           I build responsive and scalable web applications with clean code and a problem-solving mindset. Passionate about turning ideas into real-world solutions.
         </p>
         <div className="hero-actions">
-          <a href="/#projects" className="primary-button">View My Projects</a>
-          <a href="/Ayush-Karale-Resume.pdf" className="secondary-button" download>Download Resume</a>
+          <a href="/Portfolio/#projects" className="primary-button">View My Projects</a>
+          <a href="/Portfolio/Ayush-Karale-Resume.pdf" className="secondary-button" download>Download Resume</a>
         </div>
         <div className="social-row">
           <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub"><Github size={16} /></a>
